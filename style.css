@@ -1,0 +1,36 @@
+.container{
+    width: 313px;
+    height: 383px;
+    background-color: rgba(163, 245, 204, 0.932);
+    margin: auto;
+}
+
+.anwser{
+    width: 100%;
+    height: 20%;
+    border-bottom: 2px solid red;
+}
+
+input{
+    width: 75px;
+    height: 60px;
+}
+
+input:hover{
+    background-color: rgb(134, 126, 160);
+}
+
+#equal,#plus,#menha,#delete,#zarb,#taqsim,#clear{
+    background-color: rgba(36, 215, 255, 0.479);
+}
+
+#equal:hover,#plus:hover,#menha:hover,#delete:hover,
+#zarb:hover,#taqsim:hover,#clear:hover{
+    background-color: rgb(243, 137, 137);
+}
+
+#block{
+    width: 76px;
+    background-color: rgb(31, 0, 80);
+    display:inline-flex
+}
